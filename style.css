@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: linear-gradient(rgb(120,50,30,0), rgb(10,90,50,1)), url(images/shim1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li {
+    display: inline-block;
+     margin-top: 20px;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.cv{
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.logo img{
+     float: left;
+     width: 90px;
+     height: auto;
+     margin-top: 20px;
+}
+
+/*
+ICONS MANAGMEMENT
+*/
+.facebook_icon,.linkedin_icon,.instagram_icon,.youtube_icon{
+    width: 20px;
+    height: auto;
+    
+}
+.btn-success:hover{
+  background-color: black;
+    color: white;
+    border-radius: 50px;    
+}
+.class_main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+.title h4{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+     position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+.btn-success.facebook_icon{
+    width: 450xp;
+}
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.right{
+    text-align: center;
+}
+
+.follow{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+}
